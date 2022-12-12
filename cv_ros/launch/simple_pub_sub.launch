@@ -1,0 +1,4 @@
+<launch>
+    <node name="pub" pkg="cv_ros" type="pub.py" />
+    <node name="sub" pkg="cv_ros" type="sub.py" output="screen" />
+</launch>
